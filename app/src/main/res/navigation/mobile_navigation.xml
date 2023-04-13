@@ -14,7 +14,7 @@
     <fragment
         android:id="@+id/nav_admission"
         android:name="com.example.guardian.ui.admission.AdmissionFragment"
-        android:label="@string/menu_dailyreport"
+        android:label="@string/menu_admission"
         tools:layout="@layout/fragment_admission" />
 
     <fragment

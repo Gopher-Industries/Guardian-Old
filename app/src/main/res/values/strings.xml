@@ -7,7 +7,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
 
-    <string name="menu_home">Home</string>
+    <string name="menu_home">Guardian</string>
     <string name="menu_admission">New Admission</string>
     <string name="menu_dailyreport">Daily Report</string>
     <string name="menu_searchPatient">Search Patient</string>

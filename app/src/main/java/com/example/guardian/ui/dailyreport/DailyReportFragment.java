@@ -23,7 +23,7 @@ public class DailyReportFragment extends Fragment {
         binding = FragmentDailyreportBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textSlideshow;
+        final TextView textView = binding.textDailyReport;
         slideshowViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
