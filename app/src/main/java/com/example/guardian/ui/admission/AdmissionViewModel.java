@@ -10,7 +10,7 @@ public class AdmissionViewModel extends ViewModel {
 
     public AdmissionViewModel() {
         mText = new MutableLiveData<>();
-        mText.setValue("This is gallery fragment");
+        mText.setValue("New Admission UI");
     }
 
     public LiveData<String> getText() {

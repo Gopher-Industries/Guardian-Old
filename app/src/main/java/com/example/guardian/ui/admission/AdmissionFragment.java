@@ -18,13 +18,13 @@ public class AdmissionFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        AdmissionViewModel galleryViewModel =
+        AdmissionViewModel admissionViewModel =
                 new ViewModelProvider(this, new ViewModelProvider.NewInstanceFactory()).get(AdmissionViewModel.class);
 
         binding = FragmentAdmissionBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
-        final TextView textView = binding.textGallery;
+        final TextView textView = binding.textAdmission;
         admissionViewModel.getText().observe(getViewLifecycleOwner(), textView::setText);
         return root;
     }
