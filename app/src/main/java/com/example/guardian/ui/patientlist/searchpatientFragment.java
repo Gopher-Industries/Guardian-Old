@@ -16,7 +16,7 @@ import com.example.guardian.placeholder.PlaceholderContent;
 /**
  * A fragment representing a list of Items.
  */
-public class searchpatientFragment extends Fragment {
+public class SearchPatientFragment extends Fragment {
 
     // TODO: Customize parameter argument names
     private static final String ARG_COLUMN_COUNT = "column-count";
@@ -27,13 +27,13 @@ public class searchpatientFragment extends Fragment {
      * Mandatory empty constructor for the fragment manager to instantiate the
      * fragment (e.g. upon screen orientation changes).
      */
-    public searchpatientFragment() {
+    public SearchPatientFragment() {
     }
 
     // TODO: Customize parameter initialization
     @SuppressWarnings("unused")
-    public static searchpatientFragment newInstance(int columnCount) {
-        searchpatientFragment fragment = new searchpatientFragment();
+    public static SearchPatientFragment newInstance(int columnCount) {
+        SearchPatientFragment fragment = new SearchPatientFragment();
         Bundle args = new Bundle();
         args.putInt(ARG_COLUMN_COUNT, columnCount);
         fragment.setArguments(args);
@@ -52,7 +52,7 @@ public class searchpatientFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_searchpatient_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_searchpatient, container, false);
 
         // Set the adapter
         if (view instanceof RecyclerView) {

@@ -48,8 +48,8 @@ public class patientListRecyclerViewAdapter extends RecyclerView.Adapter<patient
 
         public ViewHolder(FragmentSearchpatientBinding binding) {
             super(binding.getRoot());
-            mIdView = binding.itemNumber;
-            mContentView = binding.content;
+            mIdView = binding.patientID;
+            mContentView = binding.patientnName;
         }
 
         @Override
