@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view">
+    tools:showIn="@layout/activity_main">
 
     <group android:checkableBehavior="single">
         <item
@@ -16,11 +16,9 @@
             android:id="@+id/nav_dailyReport"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_dailyreport" />
-    </group>
-    <group android:checkableBehavior="single">
-    <item
-        android:id="@+id/nav_searchPatient"
-        android:icon="@android:drawable/ic_menu_search"
-        android:title="@string/menu_searchPatient" />
+        <item
+            android:id="@+id/nav_searchPatient"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="@string/menu_searchPatient" />
     </group>
 </menu>

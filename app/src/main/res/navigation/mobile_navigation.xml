@@ -23,8 +23,8 @@
         android:label="@string/menu_dailyreport"
         tools:layout="@layout/fragment_dailyreport" />
     <fragment
-        android:id="@+id/searchpatientFragment"
-        android:name="com.example.guardian.ui.patientlist.searchpatientFragment"
-        android:label="fragment_searchpatient_list"
-        tools:layout="@layout/fragment_searchpatient_list" />
+        android:id="@+id/nav_searchPatient"
+        android:name="com.example.guardian.ui.patientlist.SearchPatientFragment"
+        android:label="Search Patient"
+        tools:layout="@layout/fragment_searchpatient" />/>
 </navigation>
